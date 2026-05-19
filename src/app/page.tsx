@@ -2,13 +2,19 @@
 
 import "./page.css";
 
-// Import DevLink components from "@/webflow/*"
-// import { ComponentName } from "@/webflow/ComponentName";
+import { Navbar } from "@/webflow/Navbar"; // Import the Navbar component
+import { Footer } from "@/webflow/Footer"; // Import the Footer component
 
 export default function Home() {
   return (
-    <section className="hero-section">
-      <div className="container">
+    <>
+      <Navbar
+        navbarLinkFeatures="Hello"
+        navbarLinkProducts="Webflow"
+        navbarLinkResources="Cloud"
+        navbarLinkContact=""
+      />
+      <main className="hero-section">
         <div className="hero-content">
           <h1 className="hero-title">Welcome to Webflow Cloud</h1>
           <p className="hero-description">
@@ -24,7 +30,8 @@ export default function Home() {
             </a>
           </div>
         </div>
-      </div>
-    </section>
+      </main>
+      <Footer />
+    </>
   );
 }
