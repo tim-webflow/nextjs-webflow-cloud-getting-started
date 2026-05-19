@@ -1,0 +1,15 @@
+:root {
+  --gray-300: #b3b3b3;
+  --yellow-green-700: #7aa35a;
+  --primary: #996aff;
+  --gray-800: #222;
+  --white: #ececec;
+  --gray-500: #757575;
+  --primary: #ffcc11;
+  --primary-2: #ffcc11;
+  --default-font: Inter, sans-serif;
+  --default-padding: 50px;
+  --my-number: 10;
+  --default-padding-2: 50px;
+  --default-padding-3: 50px;
+}

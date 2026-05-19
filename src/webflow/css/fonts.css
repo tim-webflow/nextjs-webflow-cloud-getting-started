@@ -1,0 +1,12 @@
+/* Fonts */
+
+@import url("https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700&subset=latin");
+
+@font-face {
+  font-family: "Satoshi";
+  src: url("https://cdn.prod.website-files.com/6a0c6edc2e63e9caf40dea0e/6a0c6edf2e63e9caf40deb7e_Satoshi-Medium.woff2")
+    format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
